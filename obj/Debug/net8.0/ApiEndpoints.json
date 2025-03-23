@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "Generic_Repository.Controllers.ProductWithGenericRepoController",
+    "Method": "Get",
+    "RelativePath": "api/ProductWithGenericRepo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Generic_Repository.Entity.Product, Generic-Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Generic_Repository.Controllers.ProductWithGenericRepoController",
+    "Method": "Post",
+    "RelativePath": "api/ProductWithGenericRepo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Generic_Repository.ViewModel.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Generic_Repository.Controllers.ProductWithGenericRepoController",
+    "Method": "Get",
+    "RelativePath": "api/ProductWithGenericRepo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Generic_Repository.Entity.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Generic_Repository.Controllers.ProductWithGenericRepoController",
+    "Method": "Put",
+    "RelativePath": "api/ProductWithGenericRepo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "Generic_Repository.ViewModel.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Generic_Repository.Controllers.ProductWithGenericRepoController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductWithGenericRepo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
